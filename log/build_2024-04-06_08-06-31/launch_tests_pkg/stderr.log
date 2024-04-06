@@ -1,0 +1,17 @@
+CMake Error at CMakeLists.txt:63 (add_executable):
+  add_executable cannot create target "move_robot_exe" because another target
+  with the same name already exists.  The existing target is an executable
+  created in source directory "/home/user/ros2_ws/src/launch_tests_pkg".  See
+  documentation for policy CMP0002 for more details.
+
+
+CMake Error at /opt/ros/galactic/share/ament_cmake_core/cmake/environment_hooks/ament_environment_hooks.cmake:29 (message):
+  ament_environment_hooks() must be called before
+  ament_generate_package_environment() (which is invoked by ament_package())
+Call Stack (most recent call first):
+  /opt/ros/galactic/share/ament_cmake_core/cmake/environment_hooks/ament_cmake_environment_hooks_package_hook.cmake:20 (ament_environment_hooks)
+  /opt/ros/galactic/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/galactic/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+  CMakeLists.txt:78 (ament_package)
+
+

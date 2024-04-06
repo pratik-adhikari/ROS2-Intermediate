@@ -1,0 +1,20 @@
+-- Install configuration: ""
+-- Up-to-date: /home/user/ros2_ws/install/launch_args_example_pkg/share/launch_args_example_pkg//launch
+-- Up-to-date: /home/user/ros2_ws/install/launch_args_example_pkg/share/launch_args_example_pkg//launch/start_with_arguments_dummy.launch.py
+-- Up-to-date: /home/user/ros2_ws/install/launch_args_example_pkg/share/launch_args_example_pkg//launch/start_with_arguments.launch.py
+-- Installing: /home/user/ros2_ws/install/launch_args_example_pkg/share/launch_args_example_pkg//rviz_config
+-- Installing: /home/user/ros2_ws/install/launch_args_example_pkg/share/ament_index/resource_index/package_run_dependencies/launch_args_example_pkg
+-- Installing: /home/user/ros2_ws/install/launch_args_example_pkg/share/ament_index/resource_index/parent_prefix_path/launch_args_example_pkg
+-- Installing: /home/user/ros2_ws/install/launch_args_example_pkg/share/launch_args_example_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/user/ros2_ws/install/launch_args_example_pkg/share/launch_args_example_pkg/environment/ament_prefix_path.dsv
+-- Installing: /home/user/ros2_ws/install/launch_args_example_pkg/share/launch_args_example_pkg/environment/path.sh
+-- Installing: /home/user/ros2_ws/install/launch_args_example_pkg/share/launch_args_example_pkg/environment/path.dsv
+-- Installing: /home/user/ros2_ws/install/launch_args_example_pkg/share/launch_args_example_pkg/local_setup.bash
+-- Installing: /home/user/ros2_ws/install/launch_args_example_pkg/share/launch_args_example_pkg/local_setup.sh
+-- Installing: /home/user/ros2_ws/install/launch_args_example_pkg/share/launch_args_example_pkg/local_setup.zsh
+-- Installing: /home/user/ros2_ws/install/launch_args_example_pkg/share/launch_args_example_pkg/local_setup.dsv
+-- Up-to-date: /home/user/ros2_ws/install/launch_args_example_pkg/share/launch_args_example_pkg/package.dsv
+-- Installing: /home/user/ros2_ws/install/launch_args_example_pkg/share/ament_index/resource_index/packages/launch_args_example_pkg
+-- Installing: /home/user/ros2_ws/install/launch_args_example_pkg/share/launch_args_example_pkg/cmake/launch_args_example_pkgConfig.cmake
+-- Installing: /home/user/ros2_ws/install/launch_args_example_pkg/share/launch_args_example_pkg/cmake/launch_args_example_pkgConfig-version.cmake
+-- Installing: /home/user/ros2_ws/install/launch_args_example_pkg/share/launch_args_example_pkg/package.xml

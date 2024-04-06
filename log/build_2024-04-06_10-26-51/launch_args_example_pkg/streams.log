@@ -1,0 +1,24 @@
+[0.025s] Invoking command in '/home/user/ros2_ws/build/launch_args_example_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/services_pkg:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/launch_args_example_pkg -- -j8 -l8
+[0.098s] Invoked command in '/home/user/ros2_ws/build/launch_args_example_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/services_pkg:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/launch_args_example_pkg -- -j8 -l8
+[0.178s] Invoking command in '/home/user/ros2_ws/build/launch_args_example_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/services_pkg:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/launch_args_example_pkg
+[0.189s] -- Install configuration: ""
+[0.189s] -- Up-to-date: /home/user/ros2_ws/install/launch_args_example_pkg/share/launch_args_example_pkg//launch
+[0.189s] -- Up-to-date: /home/user/ros2_ws/install/launch_args_example_pkg/share/launch_args_example_pkg//launch/start_with_arguments_dummy.launch.py
+[0.189s] -- Up-to-date: /home/user/ros2_ws/install/launch_args_example_pkg/share/launch_args_example_pkg//launch/start_with_arguments.launch.py
+[0.189s] -- Installing: /home/user/ros2_ws/install/launch_args_example_pkg/share/launch_args_example_pkg//rviz_config
+[0.189s] -- Installing: /home/user/ros2_ws/install/launch_args_example_pkg/share/ament_index/resource_index/package_run_dependencies/launch_args_example_pkg
+[0.189s] -- Installing: /home/user/ros2_ws/install/launch_args_example_pkg/share/ament_index/resource_index/parent_prefix_path/launch_args_example_pkg
+[0.190s] -- Installing: /home/user/ros2_ws/install/launch_args_example_pkg/share/launch_args_example_pkg/environment/ament_prefix_path.sh
+[0.191s] -- Installing: /home/user/ros2_ws/install/launch_args_example_pkg/share/launch_args_example_pkg/environment/ament_prefix_path.dsv
+[0.192s] -- Installing: /home/user/ros2_ws/install/launch_args_example_pkg/share/launch_args_example_pkg/environment/path.sh
+[0.192s] -- Installing: /home/user/ros2_ws/install/launch_args_example_pkg/share/launch_args_example_pkg/environment/path.dsv
+[0.192s] -- Installing: /home/user/ros2_ws/install/launch_args_example_pkg/share/launch_args_example_pkg/local_setup.bash
+[0.192s] -- Installing: /home/user/ros2_ws/install/launch_args_example_pkg/share/launch_args_example_pkg/local_setup.sh
+[0.192s] -- Installing: /home/user/ros2_ws/install/launch_args_example_pkg/share/launch_args_example_pkg/local_setup.zsh
+[0.192s] -- Installing: /home/user/ros2_ws/install/launch_args_example_pkg/share/launch_args_example_pkg/local_setup.dsv
+[0.193s] -- Up-to-date: /home/user/ros2_ws/install/launch_args_example_pkg/share/launch_args_example_pkg/package.dsv
+[0.193s] -- Installing: /home/user/ros2_ws/install/launch_args_example_pkg/share/ament_index/resource_index/packages/launch_args_example_pkg
+[0.193s] -- Installing: /home/user/ros2_ws/install/launch_args_example_pkg/share/launch_args_example_pkg/cmake/launch_args_example_pkgConfig.cmake
+[0.193s] -- Installing: /home/user/ros2_ws/install/launch_args_example_pkg/share/launch_args_example_pkg/cmake/launch_args_example_pkgConfig-version.cmake
+[0.193s] -- Installing: /home/user/ros2_ws/install/launch_args_example_pkg/share/launch_args_example_pkg/package.xml
+[0.196s] Invoked command in '/home/user/ros2_ws/build/launch_args_example_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/services_pkg:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/launch_args_example_pkg

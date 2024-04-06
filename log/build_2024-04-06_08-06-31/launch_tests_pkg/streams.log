@@ -1,0 +1,71 @@
+[0.033s] Invoking command in '/home/user/ros2_ws/build/launch_tests_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/services_pkg:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/launch_tests_pkg -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/launch_tests_pkg
+[8.661s] -- The C compiler identification is GNU 9.3.0
+[13.651s] -- The CXX compiler identification is GNU 9.3.0
+[13.747s] -- Check for working C compiler: /usr/bin/cc
+[13.873s] -- Check for working C compiler: /usr/bin/cc -- works
+[13.876s] -- Detecting C compiler ABI info
+[13.992s] -- Detecting C compiler ABI info - done
+[14.009s] -- Detecting C compile features
+[14.153s] -- Detecting C compile features - done
+[14.161s] -- Check for working CXX compiler: /usr/bin/c++
+[14.289s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[14.290s] -- Detecting CXX compiler ABI info
+[14.417s] -- Detecting CXX compiler ABI info - done
+[14.435s] -- Detecting CXX compile features
+[14.436s] -- Detecting CXX compile features - done
+[14.467s] -- Found ament_cmake: 1.1.4 (/opt/ros/galactic/share/ament_cmake/cmake)
+[14.835s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[14.835s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[15.031s] -- Found rclcpp: 9.1.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[15.213s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[15.233s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[15.887s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[15.947s] -- Found FastRTPS: /opt/ros/galactic/include  
+[16.134s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[16.408s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[16.417s] -- Found rmw_cyclonedds_cpp: 0.22.2 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[16.466s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[16.471s] -- Looking for pthread.h
+[17.690s] -- Looking for pthread.h - found
+[17.690s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[17.807s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[17.807s] -- Looking for pthread_create in pthreads
+[17.908s] -- Looking for pthread_create in pthreads - not found
+[17.909s] -- Looking for pthread_create in pthread
+[18.019s] -- Looking for pthread_create in pthread - found
+[18.021s] -- Found Threads: TRUE  
+[18.323s] -- Found geometry_msgs: 2.2.3 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[18.401s] -- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[18.552s] -- Added test 'copyright' to check source files copyright and LICENSE
+[18.556s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[18.556s] -- Configured cppcheck include dirs: 
+[18.556s] -- Configured cppcheck exclude dirs and/or files: 
+[18.559s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[18.559s] -- Configured cpplint exclude dirs and/or files: 
+[18.561s] -- Added test 'flake8' to check Python code syntax and style conventions
+[18.563s] -- Added test 'lint_cmake' to check CMake code style
+[18.566s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[18.568s] -- Added test 'uncrustify' to check C / C++ code style
+[18.568s] -- Configured uncrustify additional arguments: 
+[18.570s] -- Added test 'xmllint' to check XML markup files
+[18.576s] CMake Error at CMakeLists.txt:63 (add_executable):
+[18.576s]   add_executable cannot create target "move_robot_exe" because another target
+[18.576s]   with the same name already exists.  The existing target is an executable
+[18.576s]   created in source directory "/home/user/ros2_ws/src/launch_tests_pkg".  See
+[18.576s]   documentation for policy CMP0002 for more details.
+[18.576s] 
+[18.577s] 
+[18.578s] CMake Error at /opt/ros/galactic/share/ament_cmake_core/cmake/environment_hooks/ament_environment_hooks.cmake:29 (message):
+[18.579s]   ament_environment_hooks() must be called before
+[18.579s]   ament_generate_package_environment() (which is invoked by ament_package())
+[18.579s] Call Stack (most recent call first):
+[18.579s]   /opt/ros/galactic/share/ament_cmake_core/cmake/environment_hooks/ament_cmake_environment_hooks_package_hook.cmake:20 (ament_environment_hooks)
+[18.579s]   /opt/ros/galactic/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[18.579s]   /opt/ros/galactic/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[18.579s]   CMakeLists.txt:78 (ament_package)
+[18.579s] 
+[18.579s] 
+[18.582s] -- Configuring incomplete, errors occurred!
+[18.582s] See also "/home/user/ros2_ws/build/launch_tests_pkg/CMakeFiles/CMakeOutput.log".
+[18.582s] See also "/home/user/ros2_ws/build/launch_tests_pkg/CMakeFiles/CMakeError.log".
+[18.594s] Invoked command in '/home/user/ros2_ws/build/launch_tests_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/services_pkg:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/launch_tests_pkg -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/launch_tests_pkg
