@@ -3,6 +3,7 @@
 /home/user/ros2_ws/build/launch_tests_pkg/CMakeFiles/list_install_components.dir
 /home/user/ros2_ws/build/launch_tests_pkg/CMakeFiles/rebuild_cache.dir
 /home/user/ros2_ws/build/launch_tests_pkg/CMakeFiles/install/strip.dir
+/home/user/ros2_ws/build/launch_tests_pkg/CMakeFiles/move_robot_with_arguments_exe.dir
 /home/user/ros2_ws/build/launch_tests_pkg/CMakeFiles/move_robot_exe.dir
 /home/user/ros2_ws/build/launch_tests_pkg/CMakeFiles/edit_cache.dir
 /home/user/ros2_ws/build/launch_tests_pkg/CMakeFiles/test.dir

@@ -1,0 +1,4 @@
+[01m[K/home/user/ros2_ws/src/launch_tests_pkg/src/move_robot_with_arguments.cpp:[m[K In constructor '[01m[KMoveRobot::MoveRobot(int&, char**)[m[K':
+[01m[K/home/user/ros2_ws/src/launch_tests_pkg/src/move_robot_with_arguments.cpp:10:18:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kargc[m[K' [[01;35m[K-Wunused-parameter[m[K]
+   10 |   MoveRobot([01;35m[Kint &argc[m[K, char **argv) : Node("test") {
+      |             [01;35m[K~~~~~^~~~[m[K

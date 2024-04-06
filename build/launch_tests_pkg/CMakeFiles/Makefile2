@@ -53,6 +53,7 @@ CMAKE_BINARY_DIR = /home/user/ros2_ws/build/launch_tests_pkg
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/move_robot_with_arguments_exe.dir/all
 all: CMakeFiles/move_robot_exe.dir/all
 
 .PHONY : all
@@ -63,11 +64,39 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/move_robot_with_arguments_exe.dir/clean
 clean: CMakeFiles/move_robot_exe.dir/clean
 clean: CMakeFiles/launch_tests_pkg_uninstall.dir/clean
 clean: CMakeFiles/uninstall.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/move_robot_with_arguments_exe.dir
+
+# All Build rule for target.
+CMakeFiles/move_robot_with_arguments_exe.dir/all:
+	$(MAKE) -f CMakeFiles/move_robot_with_arguments_exe.dir/build.make CMakeFiles/move_robot_with_arguments_exe.dir/depend
+	$(MAKE) -f CMakeFiles/move_robot_with_arguments_exe.dir/build.make CMakeFiles/move_robot_with_arguments_exe.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/ros2_ws/build/launch_tests_pkg/CMakeFiles --progress-num=3,4 "Built target move_robot_with_arguments_exe"
+.PHONY : CMakeFiles/move_robot_with_arguments_exe.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/move_robot_with_arguments_exe.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/ros2_ws/build/launch_tests_pkg/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/move_robot_with_arguments_exe.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/ros2_ws/build/launch_tests_pkg/CMakeFiles 0
+.PHONY : CMakeFiles/move_robot_with_arguments_exe.dir/rule
+
+# Convenience name for target.
+move_robot_with_arguments_exe: CMakeFiles/move_robot_with_arguments_exe.dir/rule
+
+.PHONY : move_robot_with_arguments_exe
+
+# clean rule for target.
+CMakeFiles/move_robot_with_arguments_exe.dir/clean:
+	$(MAKE) -f CMakeFiles/move_robot_with_arguments_exe.dir/build.make CMakeFiles/move_robot_with_arguments_exe.dir/clean
+.PHONY : CMakeFiles/move_robot_with_arguments_exe.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/move_robot_exe.dir

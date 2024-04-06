@@ -1,0 +1,30 @@
+[35m[1mScanning dependencies of target move_robot_with_arguments_exe[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/move_robot_with_arguments_exe.dir/src/move_robot_with_arguments.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable move_robot_with_arguments_exe[0m
+[ 50%] Built target move_robot_with_arguments_exe
+[100%] Built target move_robot_exe
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/user/ros2_ws/install/launch_tests_pkg/lib/launch_tests_pkg/move_robot_exe
+-- Up-to-date symlink: /home/user/ros2_ws/install/launch_tests_pkg/lib/launch_tests_pkg/move_robot_with_arguments_exe
+-- Up-to-date symlink: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg//launch/main.launch.py
+-- Up-to-date symlink: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg//launch/move.launch.py
+-- Up-to-date symlink: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg//launch/move_with_arguments.launch.py
+-- Up-to-date symlink: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg//launch/python_main.launch.py
+-- Up-to-date symlink: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg//launch/start_rviz.launch.py
+-- Up-to-date symlink: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg//launch/start_rviz_with_arguments.launch.py
+-- Up-to-date symlink: /home/user/ros2_ws/install/launch_tests_pkg/share/ament_index/resource_index/package_run_dependencies/launch_tests_pkg
+-- Up-to-date symlink: /home/user/ros2_ws/install/launch_tests_pkg/share/ament_index/resource_index/parent_prefix_path/launch_tests_pkg
+-- Up-to-date symlink: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/environment/path.sh
+-- Up-to-date symlink: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/environment/path.dsv
+-- Up-to-date symlink: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/local_setup.bash
+-- Up-to-date symlink: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/local_setup.sh
+-- Up-to-date symlink: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/local_setup.zsh
+-- Up-to-date symlink: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/local_setup.dsv
+-- Symlinking: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/package.dsv
+-- Up-to-date symlink: /home/user/ros2_ws/install/launch_tests_pkg/share/ament_index/resource_index/packages/launch_tests_pkg
+-- Up-to-date symlink: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/cmake/launch_tests_pkgConfig.cmake
+-- Up-to-date symlink: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/cmake/launch_tests_pkgConfig-version.cmake
+-- Up-to-date symlink: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/package.xml

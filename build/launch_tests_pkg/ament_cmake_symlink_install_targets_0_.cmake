@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/user/ros2_ws/build/launch_tests_pkg/move_robot_exe" "/home/user/ros2_ws/build/launch_tests_pkg/move_robot_with_arguments_exe" "TARGETS" "move_robot_exe" "move_robot_with_arguments_exe" "DESTINATION" "lib/launch_tests_pkg")

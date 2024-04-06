@@ -1,0 +1,68 @@
+[0.027s] Invoking command in '/home/user/ros2_ws/build/launch_tests_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/services_pkg:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/launch_tests_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/launch_tests_pkg
+[0.054s] -- Found ament_cmake: 1.1.4 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.097s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.189s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.205s] -- Found rclcpp: 9.1.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.265s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.271s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.515s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.607s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.609s] -- Found rmw_cyclonedds_cpp: 0.22.2 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.635s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.880s] -- Found geometry_msgs: 2.2.3 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[0.930s] -- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.035s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.036s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.036s] -- Configured cppcheck include dirs: 
+[1.037s] -- Configured cppcheck exclude dirs and/or files: 
+[1.038s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.038s] -- Configured cpplint exclude dirs and/or files: 
+[1.040s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.041s] -- Added test 'lint_cmake' to check CMake code style
+[1.042s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.044s] -- Added test 'uncrustify' to check C / C++ code style
+[1.044s] -- Configured uncrustify additional arguments: 
+[1.044s] -- Added test 'xmllint' to check XML markup files
+[1.051s] -- Configuring done
+[1.075s] -- Generating done
+[1.079s] -- Build files have been written to: /home/user/ros2_ws/build/launch_tests_pkg
+[1.090s] Invoked command in '/home/user/ros2_ws/build/launch_tests_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/services_pkg:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/launch_tests_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/launch_tests_pkg
+[1.094s] Invoking command in '/home/user/ros2_ws/build/launch_tests_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/services_pkg:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/launch_tests_pkg -- -j8 -l8
+[1.160s] [35m[1mScanning dependencies of target move_robot_with_arguments_exe[0m
+[1.204s] [ 25%] [32m[1mLinking CXX executable move_robot_exe[0m
+[1.241s] [ 50%] [32mBuilding CXX object CMakeFiles/move_robot_with_arguments_exe.dir/src/move_robot_with_arguments.cpp.o[0m
+[1.513s] [ 75%] Built target move_robot_exe
+[3.708s] [01m[K/home/user/ros2_ws/src/launch_tests_pkg/src/move_robot_with_arguments.cpp:[m[K In constructor '[01m[KMoveRobot::MoveRobot(int&, char**)[m[K':
+[3.708s] [01m[K/home/user/ros2_ws/src/launch_tests_pkg/src/move_robot_with_arguments.cpp:10:18:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kargc[m[K' [[01;35m[K-Wunused-parameter[m[K]
+[3.708s]    10 |   MoveRobot([01;35m[Kint &argc[m[K, char **argv) : Node("test") {
+[3.708s]       |             [01;35m[K~~~~~^~~~[m[K
+[6.896s] [100%] [32m[1mLinking CXX executable move_robot_with_arguments_exe[0m
+[7.141s] [100%] Built target move_robot_with_arguments_exe
+[7.164s] Invoked command in '/home/user/ros2_ws/build/launch_tests_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/services_pkg:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/launch_tests_pkg -- -j8 -l8
+[7.258s] Invoking command in '/home/user/ros2_ws/build/launch_tests_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/services_pkg:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/launch_tests_pkg
+[7.282s] -- Install configuration: ""
+[7.286s] -- Execute custom install script
+[7.286s] -- Symlinking: /home/user/ros2_ws/install/launch_tests_pkg/lib/launch_tests_pkg/move_robot_exe
+[7.299s] -- Symlinking: /home/user/ros2_ws/install/launch_tests_pkg/lib/launch_tests_pkg/move_robot_with_arguments_exe
+[7.316s] -- Symlinking: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg//launch/main.launch.py
+[7.329s] -- Symlinking: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg//launch/move.launch.py
+[7.342s] -- Symlinking: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg//launch/move_with_arguments.launch.py
+[7.357s] -- Symlinking: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg//launch/python_main.launch.py
+[7.380s] -- Symlinking: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg//launch/start_rviz.launch.py
+[7.397s] -- Symlinking: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg//launch/start_rviz_with_arguments.launch.py
+[7.411s] -- Symlinking: /home/user/ros2_ws/install/launch_tests_pkg/share/ament_index/resource_index/package_run_dependencies/launch_tests_pkg
+[7.424s] -- Symlinking: /home/user/ros2_ws/install/launch_tests_pkg/share/ament_index/resource_index/parent_prefix_path/launch_tests_pkg
+[7.436s] -- Symlinking: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/environment/ament_prefix_path.sh
+[7.452s] -- Symlinking: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/environment/ament_prefix_path.dsv
+[7.468s] -- Symlinking: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/environment/path.sh
+[7.483s] -- Symlinking: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/environment/path.dsv
+[7.498s] -- Symlinking: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/local_setup.bash
+[7.510s] -- Symlinking: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/local_setup.sh
+[7.523s] -- Symlinking: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/local_setup.zsh
+[7.535s] -- Symlinking: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/local_setup.dsv
+[7.549s] -- Symlinking: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/package.dsv
+[7.565s] -- Symlinking: /home/user/ros2_ws/install/launch_tests_pkg/share/ament_index/resource_index/packages/launch_tests_pkg
+[7.580s] -- Symlinking: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/cmake/launch_tests_pkgConfig.cmake
+[7.598s] -- Symlinking: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/cmake/launch_tests_pkgConfig-version.cmake
+[7.611s] -- Symlinking: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/package.xml
+[7.626s] Invoked command in '/home/user/ros2_ws/build/launch_tests_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/services_pkg:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/launch_tests_pkg

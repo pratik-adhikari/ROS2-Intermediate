@@ -168,6 +168,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named move_robot_with_arguments_exe
+
+# Build rule for target.
+move_robot_with_arguments_exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 move_robot_with_arguments_exe
+.PHONY : move_robot_with_arguments_exe
+
+# fast build rule for target.
+move_robot_with_arguments_exe/fast:
+	$(MAKE) -f CMakeFiles/move_robot_with_arguments_exe.dir/build.make CMakeFiles/move_robot_with_arguments_exe.dir/build
+.PHONY : move_robot_with_arguments_exe/fast
+
+#=============================================================================
 # Target rules for targets named move_robot_exe
 
 # Build rule for target.
@@ -233,6 +246,33 @@ src/move_robot.cpp.s:
 	$(MAKE) -f CMakeFiles/move_robot_exe.dir/build.make CMakeFiles/move_robot_exe.dir/src/move_robot.cpp.s
 .PHONY : src/move_robot.cpp.s
 
+src/move_robot_with_arguments.o: src/move_robot_with_arguments.cpp.o
+
+.PHONY : src/move_robot_with_arguments.o
+
+# target to build an object file
+src/move_robot_with_arguments.cpp.o:
+	$(MAKE) -f CMakeFiles/move_robot_with_arguments_exe.dir/build.make CMakeFiles/move_robot_with_arguments_exe.dir/src/move_robot_with_arguments.cpp.o
+.PHONY : src/move_robot_with_arguments.cpp.o
+
+src/move_robot_with_arguments.i: src/move_robot_with_arguments.cpp.i
+
+.PHONY : src/move_robot_with_arguments.i
+
+# target to preprocess a source file
+src/move_robot_with_arguments.cpp.i:
+	$(MAKE) -f CMakeFiles/move_robot_with_arguments_exe.dir/build.make CMakeFiles/move_robot_with_arguments_exe.dir/src/move_robot_with_arguments.cpp.i
+.PHONY : src/move_robot_with_arguments.cpp.i
+
+src/move_robot_with_arguments.s: src/move_robot_with_arguments.cpp.s
+
+.PHONY : src/move_robot_with_arguments.s
+
+# target to generate assembly for a file
+src/move_robot_with_arguments.cpp.s:
+	$(MAKE) -f CMakeFiles/move_robot_with_arguments_exe.dir/build.make CMakeFiles/move_robot_with_arguments_exe.dir/src/move_robot_with_arguments.cpp.s
+.PHONY : src/move_robot_with_arguments.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -244,6 +284,7 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... install/strip"
+	@echo "... move_robot_with_arguments_exe"
 	@echo "... move_robot_exe"
 	@echo "... edit_cache"
 	@echo "... test"
@@ -252,6 +293,9 @@ help:
 	@echo "... src/move_robot.o"
 	@echo "... src/move_robot.i"
 	@echo "... src/move_robot.s"
+	@echo "... src/move_robot_with_arguments.o"
+	@echo "... src/move_robot_with_arguments.i"
+	@echo "... src/move_robot_with_arguments.s"
 .PHONY : help
 
 
