@@ -1,0 +1,4 @@
+[01m[K/home/user/ros2_ws/src/launch_args_example_pkg/src/arguments_examples.cpp:[m[K In constructor '[01m[KDummyArgumetsExample::DummyArgumetsExample(int&, char**)[m[K':
+[01m[K/home/user/ros2_ws/src/launch_args_example_pkg/src/arguments_examples.cpp:10:29:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kargc[m[K' [[01;35m[K-Wunused-parameter[m[K]
+   10 |   DummyArgumetsExample([01;35m[Kint &argc[m[K, char **argv)
+      |                        [01;35m[K~~~~~^~~~[m[K

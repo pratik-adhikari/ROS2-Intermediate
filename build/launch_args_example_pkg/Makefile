@@ -168,6 +168,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named arguments_examples_demo
+
+# Build rule for target.
+arguments_examples_demo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 arguments_examples_demo
+.PHONY : arguments_examples_demo
+
+# fast build rule for target.
+arguments_examples_demo/fast:
+	$(MAKE) -f CMakeFiles/arguments_examples_demo.dir/build.make CMakeFiles/arguments_examples_demo.dir/build
+.PHONY : arguments_examples_demo/fast
+
+#=============================================================================
 # Target rules for targets named launch_args_example_pkg_uninstall
 
 # Build rule for target.
@@ -193,6 +206,33 @@ uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
+src/arguments_examples.o: src/arguments_examples.cpp.o
+
+.PHONY : src/arguments_examples.o
+
+# target to build an object file
+src/arguments_examples.cpp.o:
+	$(MAKE) -f CMakeFiles/arguments_examples_demo.dir/build.make CMakeFiles/arguments_examples_demo.dir/src/arguments_examples.cpp.o
+.PHONY : src/arguments_examples.cpp.o
+
+src/arguments_examples.i: src/arguments_examples.cpp.i
+
+.PHONY : src/arguments_examples.i
+
+# target to preprocess a source file
+src/arguments_examples.cpp.i:
+	$(MAKE) -f CMakeFiles/arguments_examples_demo.dir/build.make CMakeFiles/arguments_examples_demo.dir/src/arguments_examples.cpp.i
+.PHONY : src/arguments_examples.cpp.i
+
+src/arguments_examples.s: src/arguments_examples.cpp.s
+
+.PHONY : src/arguments_examples.s
+
+# target to generate assembly for a file
+src/arguments_examples.cpp.s:
+	$(MAKE) -f CMakeFiles/arguments_examples_demo.dir/build.make CMakeFiles/arguments_examples_demo.dir/src/arguments_examples.cpp.s
+.PHONY : src/arguments_examples.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -203,11 +243,15 @@ help:
 	@echo "... install/local"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... arguments_examples_demo"
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... launch_args_example_pkg_uninstall"
 	@echo "... uninstall"
+	@echo "... src/arguments_examples.o"
+	@echo "... src/arguments_examples.i"
+	@echo "... src/arguments_examples.s"
 .PHONY : help
 
 

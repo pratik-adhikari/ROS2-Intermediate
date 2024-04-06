@@ -1,0 +1,23 @@
+[100%] Built target move_robot_exe
+-- Install configuration: ""
+-- Up-to-date: /home/user/ros2_ws/install/launch_tests_pkg/lib/launch_tests_pkg/move_robot_exe
+-- Up-to-date: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg//launch
+-- Up-to-date: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg//launch/main.launch.py
+-- Installing: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg//launch/move.launch.py
+-- Up-to-date: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg//launch/start_rviz.launch.py
+-- Up-to-date: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg//rviz_config
+-- Up-to-date: /home/user/ros2_ws/install/launch_tests_pkg/share/ament_index/resource_index/package_run_dependencies/launch_tests_pkg
+-- Up-to-date: /home/user/ros2_ws/install/launch_tests_pkg/share/ament_index/resource_index/parent_prefix_path/launch_tests_pkg
+-- Up-to-date: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/environment/path.sh
+-- Up-to-date: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/environment/path.dsv
+-- Up-to-date: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/local_setup.bash
+-- Up-to-date: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/local_setup.sh
+-- Up-to-date: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/local_setup.zsh
+-- Up-to-date: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/local_setup.dsv
+-- Installing: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/package.dsv
+-- Up-to-date: /home/user/ros2_ws/install/launch_tests_pkg/share/ament_index/resource_index/packages/launch_tests_pkg
+-- Up-to-date: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/cmake/launch_tests_pkgConfig.cmake
+-- Up-to-date: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/cmake/launch_tests_pkgConfig-version.cmake
+-- Up-to-date: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/package.xml

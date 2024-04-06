@@ -1,3 +1,4 @@
+/home/user/ros2_ws/install/launch_args_example_pkg/lib/launch_args_example_pkg/arguments_examples_demo
 /home/user/ros2_ws/install/launch_args_example_pkg/share/launch_args_example_pkg//launch/start_with_arguments_dummy.launch.py
 /home/user/ros2_ws/install/launch_args_example_pkg/share/launch_args_example_pkg//launch/start_with_arguments.launch.py
 /home/user/ros2_ws/install/launch_args_example_pkg/share/ament_index/resource_index/package_run_dependencies/launch_args_example_pkg

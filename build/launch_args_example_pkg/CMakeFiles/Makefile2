@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = /home/user/ros2_ws/build/launch_args_example_pkg
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all:
+all: CMakeFiles/arguments_examples_demo.dir/all
 
 .PHONY : all
 
@@ -63,10 +63,38 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/arguments_examples_demo.dir/clean
 clean: CMakeFiles/launch_args_example_pkg_uninstall.dir/clean
 clean: CMakeFiles/uninstall.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/arguments_examples_demo.dir
+
+# All Build rule for target.
+CMakeFiles/arguments_examples_demo.dir/all:
+	$(MAKE) -f CMakeFiles/arguments_examples_demo.dir/build.make CMakeFiles/arguments_examples_demo.dir/depend
+	$(MAKE) -f CMakeFiles/arguments_examples_demo.dir/build.make CMakeFiles/arguments_examples_demo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/ros2_ws/build/launch_args_example_pkg/CMakeFiles --progress-num=1,2 "Built target arguments_examples_demo"
+.PHONY : CMakeFiles/arguments_examples_demo.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/arguments_examples_demo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/ros2_ws/build/launch_args_example_pkg/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/arguments_examples_demo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/ros2_ws/build/launch_args_example_pkg/CMakeFiles 0
+.PHONY : CMakeFiles/arguments_examples_demo.dir/rule
+
+# Convenience name for target.
+arguments_examples_demo: CMakeFiles/arguments_examples_demo.dir/rule
+
+.PHONY : arguments_examples_demo
+
+# clean rule for target.
+CMakeFiles/arguments_examples_demo.dir/clean:
+	$(MAKE) -f CMakeFiles/arguments_examples_demo.dir/build.make CMakeFiles/arguments_examples_demo.dir/clean
+.PHONY : CMakeFiles/arguments_examples_demo.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/launch_args_example_pkg_uninstall.dir

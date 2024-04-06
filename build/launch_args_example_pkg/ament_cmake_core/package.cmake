@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "launch_args_example_pkg")
 set(launch_args_example_pkg_VERSION "0.0.0")
-set(launch_args_example_pkg_MAINTAINER "user <user@todo.todo>")
+set(launch_args_example_pkg_MAINTAINER "user <pratikadhikari.de@gmail.com>")
 set(launch_args_example_pkg_BUILD_DEPENDS "rclcpp")
 set(launch_args_example_pkg_BUILDTOOL_DEPENDS "ament_cmake")
 set(launch_args_example_pkg_BUILD_EXPORT_DEPENDS "rclcpp")

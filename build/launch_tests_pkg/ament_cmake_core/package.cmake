@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "launch_tests_pkg")
 set(launch_tests_pkg_VERSION "0.0.0")
-set(launch_tests_pkg_MAINTAINER "user <user@todo.todo>")
+set(launch_tests_pkg_MAINTAINER "user <pratikadhikari.de@gmail.com>")
 set(launch_tests_pkg_BUILD_DEPENDS "rclcpp" "geometry_msgs")
 set(launch_tests_pkg_BUILDTOOL_DEPENDS "ament_cmake")
 set(launch_tests_pkg_BUILD_EXPORT_DEPENDS "rclcpp" "geometry_msgs")

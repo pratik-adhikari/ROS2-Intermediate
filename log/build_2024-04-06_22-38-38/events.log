@@ -1,0 +1,273 @@
+[0.000000] (-) TimerEvent: {}
+[0.000718] (launch_tests_pkg) JobQueued: {'identifier': 'launch_tests_pkg', 'dependencies': OrderedDict()}
+[0.000928] (launch_tests_pkg) JobStarted: {'identifier': 'launch_tests_pkg'}
+[0.026733] (launch_tests_pkg) JobProgress: {'identifier': 'launch_tests_pkg', 'progress': 'cmake'}
+[0.027945] (launch_tests_pkg) JobProgress: {'identifier': 'launch_tests_pkg', 'progress': 'build'}
+[0.029369] (launch_tests_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/launch_tests_pkg', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/build/launch_tests_pkg', 'env': OrderedDict([('ROS_VERSION', '2'), ('GAZEBO_MASTER_URI', 'http://1_simulation:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('PWD', '/home/user/ros2_ws/build/launch_tests_pkg'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/move_robot_as:/home/simulations/ros2_sims_ws/install/t3_action_msg:/home/simulations/ros2_sims_ws/install/services_pkg:/home/simulations/ros2_sims_ws/install/neo_simulation2:/home/user/ros2_ws/install/launch_tests_pkg:/home/user/ros2_ws/install/launch_args_example_pkg:/opt/ros/galactic'), ('CMAKE_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/move_robot_as:/home/simulations/ros2_sims_ws/install/t3_action_msg:/home/simulations/ros2_sims_ws/install/neo_simulation2:/home/user/ros2_ws/install/launch_tests_pkg:/home/user/ros2_ws/install/launch_args_example_pkg:/home/simulations/ros2_sims_ws/install/services_pkg:/opt/ros/galactic'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/t3_action_msg/lib/python3.8/site-packages:/home/simulations/ros2_sims_ws/install/services_pkg/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '1_simulation'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_simulation:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/t3_action_msg/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '0'), ('SLOT_PREFIX', 'df206f3a-0724-4826-b8fc-1a034d608975'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25169'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/galactic/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'galactic'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'galactic'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src/launch_tests_pkg'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.099702] (-) TimerEvent: {}
+[0.200146] (-) TimerEvent: {}
+[0.300496] (-) TimerEvent: {}
+[0.400891] (-) TimerEvent: {}
+[0.501497] (-) TimerEvent: {}
+[0.601891] (-) TimerEvent: {}
+[0.702246] (-) TimerEvent: {}
+[0.802904] (-) TimerEvent: {}
+[0.903403] (-) TimerEvent: {}
+[1.003812] (-) TimerEvent: {}
+[1.104252] (-) TimerEvent: {}
+[1.204837] (-) TimerEvent: {}
+[1.305252] (-) TimerEvent: {}
+[1.405663] (-) TimerEvent: {}
+[1.506082] (-) TimerEvent: {}
+[1.582631] (launch_tests_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.4 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[1.606216] (-) TimerEvent: {}
+[1.706655] (-) TimerEvent: {}
+[1.807062] (-) TimerEvent: {}
+[1.848405] (launch_tests_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.907201] (-) TimerEvent: {}
+[2.007599] (-) TimerEvent: {}
+[2.081361] (launch_tests_pkg) StdoutLine: {'line': b'-- Found rclcpp: 9.1.0 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[2.107740] (-) TimerEvent: {}
+[2.187115] (launch_tests_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.197556] (launch_tests_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[2.207859] (-) TimerEvent: {}
+[2.308212] (-) TimerEvent: {}
+[2.408632] (-) TimerEvent: {}
+[2.509016] (-) TimerEvent: {}
+[2.609374] (-) TimerEvent: {}
+[2.709777] (-) TimerEvent: {}
+[2.810171] (-) TimerEvent: {}
+[2.910543] (-) TimerEvent: {}
+[3.010995] (-) TimerEvent: {}
+[3.089744] (launch_tests_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.111116] (-) TimerEvent: {}
+[3.211547] (-) TimerEvent: {}
+[3.301508] (launch_tests_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[3.307821] (launch_tests_pkg) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.2 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[3.311629] (-) TimerEvent: {}
+[3.351621] (launch_tests_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[3.411768] (-) TimerEvent: {}
+[3.512238] (-) TimerEvent: {}
+[3.612659] (-) TimerEvent: {}
+[3.627156] (launch_tests_pkg) StdoutLine: {'line': b'-- Found geometry_msgs: 2.2.3 (/opt/ros/galactic/share/geometry_msgs/cmake)\n'}
+[3.691256] (launch_tests_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[3.712780] (-) TimerEvent: {}
+[3.812545] (launch_tests_pkg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.812815] (-) TimerEvent: {}
+[3.814835] (launch_tests_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.815211] (launch_tests_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.815397] (launch_tests_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.817026] (launch_tests_pkg) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.817313] (launch_tests_pkg) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.818232] (launch_tests_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.819897] (launch_tests_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.821117] (launch_tests_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[3.822918] (launch_tests_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.823085] (launch_tests_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.824026] (launch_tests_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.830248] (launch_tests_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.912962] (-) TimerEvent: {}
+[3.979481] (launch_tests_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[3.981878] (launch_tests_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/user/ros2_ws/build/launch_tests_pkg\n'}
+[4.013260] (-) TimerEvent: {}
+[4.115174] (-) TimerEvent: {}
+[4.215763] (-) TimerEvent: {}
+[4.316217] (-) TimerEvent: {}
+[4.397786] (launch_tests_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target move_robot_exe\x1b[0m\n'}
+[4.417102] (-) TimerEvent: {}
+[4.462526] (launch_tests_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/move_robot_exe.dir/src/move_robot.cpp.o\x1b[0m\n'}
+[4.517261] (-) TimerEvent: {}
+[4.617698] (-) TimerEvent: {}
+[4.718077] (-) TimerEvent: {}
+[4.818441] (-) TimerEvent: {}
+[4.918846] (-) TimerEvent: {}
+[5.019210] (-) TimerEvent: {}
+[5.119623] (-) TimerEvent: {}
+[5.220051] (-) TimerEvent: {}
+[5.320487] (-) TimerEvent: {}
+[5.420914] (-) TimerEvent: {}
+[5.521285] (-) TimerEvent: {}
+[5.621692] (-) TimerEvent: {}
+[5.722057] (-) TimerEvent: {}
+[5.822420] (-) TimerEvent: {}
+[5.923170] (-) TimerEvent: {}
+[6.023705] (-) TimerEvent: {}
+[6.124143] (-) TimerEvent: {}
+[6.224483] (-) TimerEvent: {}
+[6.324891] (-) TimerEvent: {}
+[6.425295] (-) TimerEvent: {}
+[6.525708] (-) TimerEvent: {}
+[6.626102] (-) TimerEvent: {}
+[6.726535] (-) TimerEvent: {}
+[6.826904] (-) TimerEvent: {}
+[6.927329] (-) TimerEvent: {}
+[7.027775] (-) TimerEvent: {}
+[7.128209] (-) TimerEvent: {}
+[7.228640] (-) TimerEvent: {}
+[7.329032] (-) TimerEvent: {}
+[7.429454] (-) TimerEvent: {}
+[7.529832] (-) TimerEvent: {}
+[7.630196] (-) TimerEvent: {}
+[7.730589] (-) TimerEvent: {}
+[7.830978] (-) TimerEvent: {}
+[7.931364] (-) TimerEvent: {}
+[8.031791] (-) TimerEvent: {}
+[8.132152] (-) TimerEvent: {}
+[8.232568] (-) TimerEvent: {}
+[8.332946] (-) TimerEvent: {}
+[8.433324] (-) TimerEvent: {}
+[8.533727] (-) TimerEvent: {}
+[8.634072] (-) TimerEvent: {}
+[8.734416] (-) TimerEvent: {}
+[8.834738] (-) TimerEvent: {}
+[8.935148] (-) TimerEvent: {}
+[9.035561] (-) TimerEvent: {}
+[9.136111] (-) TimerEvent: {}
+[9.236488] (-) TimerEvent: {}
+[9.336873] (-) TimerEvent: {}
+[9.437281] (-) TimerEvent: {}
+[9.537690] (-) TimerEvent: {}
+[9.638089] (-) TimerEvent: {}
+[9.738449] (-) TimerEvent: {}
+[9.838863] (-) TimerEvent: {}
+[9.939368] (-) TimerEvent: {}
+[10.039803] (-) TimerEvent: {}
+[10.140239] (-) TimerEvent: {}
+[10.240608] (-) TimerEvent: {}
+[10.340994] (-) TimerEvent: {}
+[10.441396] (-) TimerEvent: {}
+[10.541813] (-) TimerEvent: {}
+[10.642191] (-) TimerEvent: {}
+[10.742578] (-) TimerEvent: {}
+[10.842946] (-) TimerEvent: {}
+[10.943369] (-) TimerEvent: {}
+[11.043755] (-) TimerEvent: {}
+[11.144228] (-) TimerEvent: {}
+[11.244567] (-) TimerEvent: {}
+[11.344988] (-) TimerEvent: {}
+[11.445427] (-) TimerEvent: {}
+[11.545839] (-) TimerEvent: {}
+[11.646301] (-) TimerEvent: {}
+[11.746992] (-) TimerEvent: {}
+[11.847374] (-) TimerEvent: {}
+[11.947761] (-) TimerEvent: {}
+[12.048186] (-) TimerEvent: {}
+[12.148570] (-) TimerEvent: {}
+[12.248928] (-) TimerEvent: {}
+[12.349326] (-) TimerEvent: {}
+[12.449682] (-) TimerEvent: {}
+[12.550085] (-) TimerEvent: {}
+[12.650398] (-) TimerEvent: {}
+[12.750766] (-) TimerEvent: {}
+[12.851080] (-) TimerEvent: {}
+[12.951726] (-) TimerEvent: {}
+[13.052128] (-) TimerEvent: {}
+[13.152520] (-) TimerEvent: {}
+[13.252906] (-) TimerEvent: {}
+[13.353313] (-) TimerEvent: {}
+[13.453730] (-) TimerEvent: {}
+[13.554148] (-) TimerEvent: {}
+[13.654557] (-) TimerEvent: {}
+[13.754965] (-) TimerEvent: {}
+[13.855373] (-) TimerEvent: {}
+[13.955725] (-) TimerEvent: {}
+[14.056189] (-) TimerEvent: {}
+[14.156574] (-) TimerEvent: {}
+[14.256956] (-) TimerEvent: {}
+[14.357375] (-) TimerEvent: {}
+[14.457726] (-) TimerEvent: {}
+[14.558134] (-) TimerEvent: {}
+[14.658521] (-) TimerEvent: {}
+[14.758904] (-) TimerEvent: {}
+[14.859725] (-) TimerEvent: {}
+[14.960099] (-) TimerEvent: {}
+[15.060569] (-) TimerEvent: {}
+[15.160973] (-) TimerEvent: {}
+[15.261456] (-) TimerEvent: {}
+[15.361899] (-) TimerEvent: {}
+[15.462326] (-) TimerEvent: {}
+[15.563532] (-) TimerEvent: {}
+[15.664397] (-) TimerEvent: {}
+[15.764804] (-) TimerEvent: {}
+[15.865518] (-) TimerEvent: {}
+[15.965869] (-) TimerEvent: {}
+[16.066245] (-) TimerEvent: {}
+[16.166638] (-) TimerEvent: {}
+[16.267038] (-) TimerEvent: {}
+[16.367384] (-) TimerEvent: {}
+[16.467774] (-) TimerEvent: {}
+[16.568215] (-) TimerEvent: {}
+[16.668575] (-) TimerEvent: {}
+[16.768986] (-) TimerEvent: {}
+[16.869347] (-) TimerEvent: {}
+[16.969727] (-) TimerEvent: {}
+[17.070167] (-) TimerEvent: {}
+[17.170659] (-) TimerEvent: {}
+[17.270990] (-) TimerEvent: {}
+[17.371382] (-) TimerEvent: {}
+[17.472006] (-) TimerEvent: {}
+[17.572514] (-) TimerEvent: {}
+[17.672966] (-) TimerEvent: {}
+[17.773420] (-) TimerEvent: {}
+[17.873835] (-) TimerEvent: {}
+[17.974185] (-) TimerEvent: {}
+[18.074601] (-) TimerEvent: {}
+[18.174983] (-) TimerEvent: {}
+[18.275557] (-) TimerEvent: {}
+[18.375950] (-) TimerEvent: {}
+[18.476387] (-) TimerEvent: {}
+[18.576765] (-) TimerEvent: {}
+[18.677116] (-) TimerEvent: {}
+[18.777456] (-) TimerEvent: {}
+[18.877822] (-) TimerEvent: {}
+[18.978226] (-) TimerEvent: {}
+[19.078607] (-) TimerEvent: {}
+[19.178945] (-) TimerEvent: {}
+[19.279365] (-) TimerEvent: {}
+[19.287224] (launch_tests_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable move_robot_exe\x1b[0m\n'}
+[19.379554] (-) TimerEvent: {}
+[19.480047] (-) TimerEvent: {}
+[19.580855] (-) TimerEvent: {}
+[19.681261] (-) TimerEvent: {}
+[19.781615] (-) TimerEvent: {}
+[19.882051] (-) TimerEvent: {}
+[19.982471] (-) TimerEvent: {}
+[20.082856] (-) TimerEvent: {}
+[20.183287] (-) TimerEvent: {}
+[20.283699] (-) TimerEvent: {}
+[20.384065] (-) TimerEvent: {}
+[20.484415] (-) TimerEvent: {}
+[20.584795] (-) TimerEvent: {}
+[20.685521] (-) TimerEvent: {}
+[20.713926] (launch_tests_pkg) StdoutLine: {'line': b'[100%] Built target move_robot_exe\n'}
+[20.730737] (launch_tests_pkg) CommandEnded: {'returncode': 0}
+[20.780176] (launch_tests_pkg) JobProgress: {'identifier': 'launch_tests_pkg', 'progress': 'install'}
+[20.785660] (-) TimerEvent: {}
+[20.799166] (launch_tests_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ros2_ws/build/launch_tests_pkg'], 'cwd': '/home/user/ros2_ws/build/launch_tests_pkg', 'env': OrderedDict([('ROS_VERSION', '2'), ('GAZEBO_MASTER_URI', 'http://1_simulation:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('PWD', '/home/user/ros2_ws/build/launch_tests_pkg'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/move_robot_as:/home/simulations/ros2_sims_ws/install/t3_action_msg:/home/simulations/ros2_sims_ws/install/services_pkg:/home/simulations/ros2_sims_ws/install/neo_simulation2:/home/user/ros2_ws/install/launch_tests_pkg:/home/user/ros2_ws/install/launch_args_example_pkg:/opt/ros/galactic'), ('CMAKE_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/move_robot_as:/home/simulations/ros2_sims_ws/install/t3_action_msg:/home/simulations/ros2_sims_ws/install/neo_simulation2:/home/user/ros2_ws/install/launch_tests_pkg:/home/user/ros2_ws/install/launch_args_example_pkg:/home/simulations/ros2_sims_ws/install/services_pkg:/opt/ros/galactic'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/t3_action_msg/lib/python3.8/site-packages:/home/simulations/ros2_sims_ws/install/services_pkg/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '1_simulation'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_simulation:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/t3_action_msg/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '0'), ('SLOT_PREFIX', 'df206f3a-0724-4826-b8fc-1a034d608975'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25169'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/galactic/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'galactic'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'galactic'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src/launch_tests_pkg'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[20.812591] (launch_tests_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.812989] (launch_tests_pkg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/launch_tests_pkg/lib/launch_tests_pkg/move_robot_exe\n'}
+[20.815305] (launch_tests_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/launch_tests_pkg/lib/launch_tests_pkg/move_robot_exe" to ""\n'}
+[20.815689] (launch_tests_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg//launch\n'}
+[20.815873] (launch_tests_pkg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg//launch/main.launch.py\n'}
+[20.816105] (launch_tests_pkg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg//launch/move.launch.py\n'}
+[20.816338] (launch_tests_pkg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg//launch/start_rviz.launch.py\n'}
+[20.816529] (launch_tests_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg//rviz_config\n'}
+[20.816673] (launch_tests_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/launch_tests_pkg/share/ament_index/resource_index/package_run_dependencies/launch_tests_pkg\n'}
+[20.816837] (launch_tests_pkg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/launch_tests_pkg/share/ament_index/resource_index/parent_prefix_path/launch_tests_pkg\n'}
+[20.817033] (launch_tests_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/environment/ament_prefix_path.sh\n'}
+[20.817128] (launch_tests_pkg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/environment/ament_prefix_path.dsv\n'}
+[20.817339] (launch_tests_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/environment/path.sh\n'}
+[20.817530] (launch_tests_pkg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/environment/path.dsv\n'}
+[20.817738] (launch_tests_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/local_setup.bash\n'}
+[20.818085] (launch_tests_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/local_setup.sh\n'}
+[20.818252] (launch_tests_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/local_setup.zsh\n'}
+[20.818329] (launch_tests_pkg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/local_setup.dsv\n'}
+[20.818397] (launch_tests_pkg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/package.dsv\n'}
+[20.818558] (launch_tests_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/launch_tests_pkg/share/ament_index/resource_index/packages/launch_tests_pkg\n'}
+[20.818878] (launch_tests_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/cmake/launch_tests_pkgConfig.cmake\n'}
+[20.819066] (launch_tests_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/cmake/launch_tests_pkgConfig-version.cmake\n'}
+[20.819190] (launch_tests_pkg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/launch_tests_pkg/share/launch_tests_pkg/package.xml\n'}
+[20.821375] (launch_tests_pkg) CommandEnded: {'returncode': 0}
+[20.885803] (-) TimerEvent: {}
+[20.919092] (launch_tests_pkg) JobEnded: {'identifier': 'launch_tests_pkg', 'rc': 0}
+[20.920442] (-) EventReactorShutdown: {}
